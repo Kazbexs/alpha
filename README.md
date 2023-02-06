@@ -6,15 +6,6 @@ It takes the .xes file as input and generates a Petri Net model from Event-Log
 2. I started to write my project on Python 3.8.8, but switched to 3.10.9 version, because I needed to use itertools.pairwise(iterable) function for my helper function for relations.find_directly_follows(log) to find all pairs of activities in a @directly follows relations
 For the frontend I used HTML (flask-server/templates/index.html) and CSS (flask-server/static/main.css). The window should be opened as a Full Screen.
 
-On Lehre Server:
-cd ~/pm_internship_final
-cd kazbexs
-python3 -m venv venv
-pip install -r requirements.txt
-cd flaskserver
-python3 main.py
-https://lehre.bpm.in.tum.de/ports/9001/
-
 3. Requirements are written in requirements.txt
 To activate the virtual environment: source venv/bin/activate
 Install requirements in virtual environment: pip install -r requirements.txt
