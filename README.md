@@ -1,4 +1,4 @@
-Project of Ziyagul Kazbek ge57tap@mytum.de
+Project of Ziyagul Kazbek 
 
 1.  Implementation of Alpha Algorithm: A Process Discovery Algorithm with Implementation of a Webservice
 It takes the .xes file as input and generates a Petri Net model from Event-Log
